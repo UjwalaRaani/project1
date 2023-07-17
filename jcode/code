@@ -1,0 +1,22 @@
+package modifiers;
+public class A
+{
+	public void m1()
+	{
+		int a=23;
+		System.out.println("hello");
+	}
+	
+}
+class B extends A
+{
+	public void m2()
+	{
+		System.out.println("Hii java");
+	}
+	public static void main(String[]args)
+	{
+		B obj=new B();
+		obj.m1();
+	}
+}
